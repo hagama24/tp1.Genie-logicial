@@ -96,7 +96,7 @@ public class StudentAccount {
             courses = new ArrayList<>(v);
             return this;
         }
-
+//انشاء الحساب النهائي و التحقق من المعلومات 
         public StudentAccount build() {
 
             if (id == null || id.trim().isEmpty())
