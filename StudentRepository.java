@@ -8,7 +8,7 @@ public class StudentRepository {
 
     // Singleton pattern
     private static StudentRepository instance;
-
+//قائمة الحسابات 
     private List<StudentAccount> accounts = new ArrayList<>();
 
     private StudentRepository() {}
@@ -19,7 +19,7 @@ public class StudentRepository {
 
         return instance;
     }
-
+//اضافة حساب طالب
     public void add(StudentAccount s) {
 
         for (StudentAccount a : accounts) {
