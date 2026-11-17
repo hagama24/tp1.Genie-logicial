@@ -77,7 +77,7 @@ public class Main {
         repo.add(s4);
         repo.add(s5);
 
-        log.log("CREATED", "2024101 - Yacine Ouali");
+        log.log("CREATED", "2024101 - haga malak");
         log.log("CREATED", "2024102 - Nadia Brahimi");
         log.log("CREATED", "2024103 - Walid Messaoud");
 
