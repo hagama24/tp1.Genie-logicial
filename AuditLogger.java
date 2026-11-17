@@ -24,7 +24,7 @@ public class AuditLogger {
         logs.add(LocalDateTime.now() + " | " +
                 status + " | " + message);
     }
-
+//عرض السجلات 
     public void showLogs() {
         for (String s : logs)
             System.out.println(s);
