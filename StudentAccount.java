@@ -8,7 +8,7 @@ public class StudentAccount {
     private String id, fullName, email, phone, level, major;
     private boolean scholarship;
     private List<String> courses;
-
+// Builder
     private StudentAccount(Builder b) {
         id = b.id;
         fullName = b.fullName;
